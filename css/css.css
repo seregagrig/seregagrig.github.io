@@ -1,0 +1,51 @@
+body {
+margin: 0px;
+}
+
+.top {
+    display: inline-block;
+    background: #4d4d4d;
+//border-radius: 30px;
+//margin-left: 40px;
+    -webkit-transform: skewX(-15deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-15deg); /* Для Firefox */
+    -o-transform: skewX(-15deg); /* Для Opera */
+    -ms-transform: skewX(-15deg); /* Для IE */
+    transform: skewX(-15deg); /* CSS3 */
+   }
+      .current {
+    display: inline-block;
+    background: #4169e1;
+    -webkit-transform: skewX(-15deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-15deg); /* Для Firefox */
+    -o-transform: skewX(-15deg); /* Для Opera */
+    -ms-transform: skewX(-15deg); /* Для IE */
+    transform: skewX(-15deg); /* CSS3 */
+   }
+   a {
+    color: #fffff0; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 15px 30px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    -webkit-transform: skewX(15deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(15deg); /* Для Firefox */
+    -o-transform: skewX(15deg); /* Для Opera */
+    -ms-transform: skewX(15deg); /* Для IE */
+    transform: skewX(15deg); /* CSS3 */
+font-family: Helvetica;
+font-weight: bold;
+   }
+   li:hover {
+    background: #4169e1;
+   }
+   .gradient {
+    background: #e2e2e2;
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    background: -o-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    background: -ms-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    background: linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    padding: 5px;
+border-bottom:2px solid #333333;
+border-top:2px solid #333333;
+   }
