@@ -1,94 +1,62 @@
-body {
-margin: 0px;
+
+#content {
+    width:70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background:#fffff0;
+    padding: 0% 5% 10% 5%;
 }
 
-.top {
-    display: inline-block;
-    background: #4d4d4d;
-    -webkit-transform: skewX(-15deg);
-    -moz-transform: skewX(-15deg);
-    -o-transform: skewX(-15deg);
-    -ms-transform: skewX(-15deg);
-    transform: skewX(-15deg);
-   }
+#menu_top
+{
+    position:absolute;
+    z-index:1;
+}
 
-.top_nav {
-    background: #4d4d4d;
-    border-bottom: solid 2px #222222;
-   }
-
-.current {
-    display: inline-block;
-    background: #4169e1;
-    padding: 10px;
-    -webkit-transform: skewX(-15deg);
-    -moz-transform: skewX(-15deg); 
-    -o-transform: skewX(-15deg); 
-    -ms-transform: skewX(-15deg); 
-    transform: skewX(-15deg);
-   }
-.a_top {
-font-size: 8pt;
-    color: #fffff0;
-    display: block;
-    padding: 15px 30px;
-    text-decoration: none;
-    -webkit-transform: skewX(15deg);
-    -moz-transform: skewX(15deg); 
-    -o-transform: skewX(15deg); 
-    -ms-transform: skewX(15deg); 
-    transform: skewX(15deg); 
-    font-family: Helvetica;
-    font-weight: bold;
-   }
-
-.a_menu {
-    color: #333333;
-    display: block;
-    padding: 15px 30px;
-    text-decoration: none; 
-    font-family: Helvetica;
-    font-weight: bold;
-   }
-
-li:hover {
-    background: #4169e1;
-   }
-li:active {
-	background: #0d0d0d;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background: #87CEFA;
+    background:rgba(135,206,250,0.80);
     padding: 10px;
     border-bottom:2px solid #333333;
     border-top:2px solid #333333;
     height: 60px;
 }
 
-#content {
-    width:600px;
-    height:100%;
-    margin-left: 30%;
-    background:#fffff0;
-    position:absolute;
-    }
-
-menu {
-    width:260px;
-    height:100%;
-    background:#fffff0;
-    float:left;
-    position:absolute;
-    border-right: 2px dashed #222222;
-    }
-
-
 footer {  
     width:100%;
     height:60px;
     background:#87CEFA;
-    position:absolute;
-    border-top: solid #222222;
-bottom: 0;
+    border-top: 2px solid #222222;
+    position: absolute;
+    bottom: 0;
+    background:rgba(135,206,250,0.80);
+}
+
+.page {
+   min-height: 100%;
+   position: relative;
+}
+
+.topbutton {
+    width:70px;
+    border:2px solid #cccccc;
+    background:#222222;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:100px;
+    right:20px;
+    cursor:pointer;
+    color:#fffff0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:12px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
 }

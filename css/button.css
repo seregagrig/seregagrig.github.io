@@ -1,0 +1,26 @@
+a.big_button {
+  position: relative;
+  display: block;
+  width: 10em;
+  height: 2em;
+  line-height: 45px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #fffff0;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 3px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-left: 37.5%;
+  padding-right: 25px;
+}
+a.big_button:active {
+  top: 4px;
+  left: 4px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0.1) inset;
+}

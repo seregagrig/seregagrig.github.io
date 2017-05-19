@@ -1,0 +1,70 @@
+.menu_hover:hover {
+    background: #87CEFA;
+   }
+.menu_hover:active {
+    background: #4169e1;
+   }
+.menu {
+    width:260px;
+    height:100%;
+    background:#fffff0;
+    float:left;
+    border-right: 2px dashed #222222;
+    }
+
+.a_menu {
+    color: #333333;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none; 
+    font-family: Helvetica;
+    font-weight: bold;
+    border-bottom: 1px solid #808080;
+   }
+
+.current {
+    display: inline-block;
+    background: #4169e1;
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg); 
+    -o-transform: skewX(-15deg); 
+    -ms-transform: skewX(-15deg); 
+    transform: skewX(-15deg);
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #fffff0;
+   }
+
+.a_top {
+    color: #fffff0;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg); 
+    -o-transform: skewX(15deg); 
+    -ms-transform: skewX(15deg); 
+    transform: skewX(15deg); 
+    font-family: Helvetica;
+    font-weight: bold;
+   }
+
+.top {
+    display: inline-block;
+    background: #4d4d4d;
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    -o-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+   }
+
+li:hover {
+    background: #4169e1;
+   }
+li:active {
+	background: #0d0d0d;
+}
+
+
+

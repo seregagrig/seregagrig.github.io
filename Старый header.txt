@@ -1,0 +1,22 @@
+<header>
+
+<table width="100%">
+<tr>
+<td width="20%">
+<img height="60px" src="images/logo_right.png">
+</td>
+<td width="60%">
+<div>
+<ul style="margin-top:10px; margin-right: 10px">
+    <li class="current"><a class="a_top" href="index.html">Главная</a></li>
+    <li class="top"><a class="a_top" href="about.html">О нас</a></li>
+  </ul>
+</div>
+</td>
+<td width="20%">
+<li class="top"><a class="a_top" href="register.html">Вход</a></li>
+</td>
+</tr>
+</table>
+
+</header>
