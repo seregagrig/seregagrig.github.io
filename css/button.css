@@ -3,9 +3,7 @@ a.big_button {
   display: block;
   width: 10em;
   height: 2em;
-  line-height: 45px;
-  vertical-align: middle;
-  text-align: center;
+  line-height: 2em;
   text-decoration: none;
   color: #fffff0;
   outline: none;
@@ -16,11 +14,11 @@ a.big_button {
   text-transform: uppercase;
   font-size: 1.4em;
   font-weight: bold;
-  margin-left: 37.5%;
-  padding-right: 25px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 a.big_button:active {
   top: 4px;
   left: 4px;
-  box-shadow: 0 0 0 60px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.1) inset;
 }
