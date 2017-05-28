@@ -1,4 +1,8 @@
 
+ html {
+    overflow-x: hidden;
+}
+
 #content {
     background:#fffff0;
     padding: 0% 5% 10% 5%;
@@ -143,7 +147,6 @@ a.open_menu:hover {
     box-sizing: border-box;
     width: 260px;
     height: 190px;
-    border: solid 1px #ddd;
     float: left;
     text-align: center;
     margin-right: 19px;
@@ -155,7 +158,6 @@ a.open_menu:hover {
     box-sizing: border-box;
     width: 260px;
     height: 190px;
-    border: solid 1px #ddd;
     float: left;
     text-align: center;
     margin-right: 19px;
@@ -167,7 +169,6 @@ a.open_menu:hover {
     box-sizing: border-box;
     width: 260px;
     height: 190px;
-    border: solid 1px #ddd;
     float: left;
     text-align: center;
     margin-right: 19px;
@@ -178,7 +179,6 @@ a.open_menu:hover {
     box-sizing: border-box;
     width: 260px;
     height: 190px;
-    border: solid 1px #ddd;
     float: left;
     text-align: center;
     margin-right: 19px;
@@ -186,17 +186,61 @@ a.open_menu:hover {
     overflow: hidden;
 }
 
+.uslugi_1 a{
+    text-decoration: none;
+    color:#f00;
+}
+
+.uslugi_2 a{
+    text-decoration: none;
+    color:#f00;
+    
+}
+
+.uslugi_3 a{
+    text-decoration: none;
+    color:#f00;
+}
+
+.uslugi_4 a{
+    text-decoration: none;
+    color:#f00;
+    
+}
+
+.uslugi_1 a:hover{
+    text-decoration: none;
+    color:#333;
+}
+
+.uslugi_2 a:hover{
+    text-decoration: none;
+    color:#333;
+    
+}
+
+.uslugi_3 a:hover{
+    text-decoration: none;
+    color:#333;
+}
+
+.uslugi_4 a:hover{
+    text-decoration: none;
+    color:#333;
+    
+}
+
 .uslugi_1 img {
-    height: 100%;
+    height: 170px;
 }
 .uslugi_2 img {
-    height: 100%;
+    height: 170px;
 }
 .uslugi_3 img {
-    height: 100%;
+    height: 170px;
 }
 .uslugi_4 img {
-    height: 100%;
+    height: 130px;
 }
 
 #ikonka_dop1 {

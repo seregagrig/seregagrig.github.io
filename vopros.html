@@ -59,10 +59,6 @@ jQuery(document).ready(function($){
 <p id="back-top">
 <a href="#top"><span></span>Back to Top</a>
 </p>
-<!-- Put this script tag to the <head> of your page -->
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
-<script type="text/javascript">VK.init({apiId: 6049031, onlyWidgets: true});
-</script>
 
 </head>
 
@@ -89,7 +85,7 @@ jQuery(document).ready(function($){
 				<a href="uslugi.html">Услуги</a>
 			</li>
 		<li>
-				<a href="vopros.html">Задать вопрос</a>
+				<a style="color: #f88" href="vopros.html">Задать вопрос</a>
 			</li>
 			<li>
 				<a href="kontakt.html">Контакты</a>
@@ -108,8 +104,8 @@ jQuery(document).ready(function($){
 		<div>
 			<h2 style="text-align: center">Часто задаваемые вопросы</h2>
 			<ul>
-				<li><h5>Как узнать пришел ли мой груз?</h5><p>Самый простой способ – воспользоваться онлайн-сервисом. Далее ввести номер транспортной накладной, после чего откроется информация по грузу. В случае, если система не показывает текущий статус доставки, то вы всегда можете позвонить в филиал отправки или получения груза. Будьте готовы назвать номер накладной, дату отправки, фамилию получателя или название организации.</p></li>
-				<li><h5>Что такое негабаритный груз?</h5><pre>
+				<li><h4>Как узнать пришел ли мой груз?</h4><p>Самый простой способ – воспользоваться онлайн-сервисом. Далее ввести номер транспортной накладной, после чего откроется информация по грузу. В случае, если система не показывает текущий статус доставки, то вы всегда можете позвонить в филиал отправки или получения груза. Будьте готовы назвать номер накладной, дату отправки, фамилию получателя или название организации.</p></li>
+				<li><h4>Что такое негабаритный груз?</h4><pre>
 Негабаритным грузом считается:
 	Грузовое место весом более 200кг, неупакованное на паллет
 	Грузовое место весом более 1000кг, упакованное на паллет 
@@ -118,7 +114,7 @@ jQuery(document).ready(function($){
 	Грузовое место объемом более 2,5 м3
 	При перевозке негабаритного груза взимается +25% к тарифной стоимости.
 	</pre></li>
-				<li><h5>Какие документы нужны для отправки и получения груза?</h5><pre>Для отправки и получение груза необходимы следующие документы:
+				<li><h4>Какие документы нужны для отправки и получения груза?</h4><pre>Для отправки и получение груза необходимы следующие документы:
 
 Для юридических лиц:
 
@@ -140,49 +136,39 @@ jQuery(document).ready(function($){
 </pre></li>
 			</ul>
 		</div>
+<h2>Не нашли ответа на свой вопрос?</h2>
 
 <!-- Put this div tag to the place, where the Comments block will be -->
 <div id="vk_comments"></div>
 <script type="text/javascript">
 VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
 </script>
-
-		<div>
-		<h2>Не нашли ответа на свой вопрос?</h2>
-		<table width="90%" border=0 align="center" class="td_border">
-		<tr>
-		</tr>
-			<tr align="center" valign="top">
-				<tr>
-
-				<td bgcolor='#fffff0'>
-				<form action='mail2.php' method='POST' name='form' target='_blank'>
-				<p style='font-family: Verdana; font-size: 8pt; color: #333; font-weight: bold;'>Ваше имя:<br>
-				<input name='name' type='text' size='30'></p>
-				<p style='font-family: Verdana; font-size: 8pt; color: #333; font-weight: bold;'>Ваш e-mail:<br>
-				<input name='email' type='text' size='30'></p>
-				<p style='font-family: Verdana; font-size: 8pt; color: #333; font-weight: bold;'>Ваш вопрос:<br>
-				<textarea name='mess' rows='5' cols='50'></textarea>
-				<p><input name='submit' type='submit' style='font-family: Verdana; font-size: 8pt; color: #ffffff; background-color: #6699cc; font-weight: bold;' value='Отправить сообщение'>
-
-				<input name='Reset' type='reset' style='font-family: Verdana; font-size: 8pt; color: #ffffff; background-color: #6699cc; font-weight: bold;' value='Очистить форму'></p>
-				</p>
-				</form>
-		</td>
-		</tr>
-			</tr>
-				</td>
-				</tr>
-		</table>
-		</div>
-
+<div>		
 </div>
 
 
 
 <footer>
-Сирога начал делать это чудо 15.05.2017<img width="2" src="https://popsicle2014.files.wordpress.com/2014/07/snoop-dogg-gggggga721eb54a9-290x595x58.gif">
+<ul id="nav">
+			<li>
+			<!--Документики, О нашей шарашке, Новости-->
+				<a href="info.html">О нас</a>
+			</li>
+			<li>
+				<a href="uslugi.html">Услуги</a>
+			</li>
+		<li>
+				<a style="color: #f88" href="vopros.html">Задать вопрос</a>
+			</li>
+			<li>
+				<a href="kontakt.html">Контакты</a>
+			</li>
+		</ul>
 </footer>
 </div>
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
+<script type="text/javascript">VK.init({apiId: 6049031, onlyWidgets: true});
+</script>
 </body>
 </html>
