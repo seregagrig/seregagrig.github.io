@@ -1,6 +1,10 @@
 
 #content {
-    width:90%;
+    background:#fffff0;
+    padding: 0% 5% 10% 5%;
+    min-height: 100px;
+}
+#content_uslugi{
     background:#fffff0;
     padding: 0% 5% 10% 5%;
     min-height: 60%;
@@ -25,6 +29,7 @@ header {
     border-bottom:2px solid #ccc;
     border-top:2px solid #ccc;
     height: 100px;
+    width: 100%;
 }
 footer {
     width:100%;
@@ -34,6 +39,10 @@ footer {
     bottom: 0;
     background: linear-gradient(to bottom, #fafafa, #ccc);
 }
+.logo {
+   text-align: center;
+}
+
 .page {
    position: relative;
 }
@@ -75,47 +84,6 @@ element.style {
     -o-transition: background-color 200ms linear, opacity 200ms linear;
     transition: background-color 200ms linear, opacity 200ms linear;
 }
-/*
-@media (max-width: 1180px) {
-    #nav{
-    display: none;
-    }
-}
-*/
-/*
-@media (max-width: 1180px) {
-#nav li a{
-    display:block;
-    padding:10px;
-    color:#fffff0;
-    background:#222222;
-    font-size:5pt;
-    text-decoration:none;
-    text-transform: uppercase;
-    text-shadow:3px 3px 3px rgba(0,0,0,0.75);
-    -moz-border-radius:2px;
-    -webkit-border-radius:2px;
-    border-radius:2px;
-}
-}
-*/
-/*
-@media (min-width: 1180px) {
-#nav li a{
-    display:block;
-    padding:5px;
-    color:#fffff0;
-    background:#222222;
-    font-size:10pt;
-    text-decoration:none;
-    text-transform: uppercase;
-    text-shadow:3px 3px 3px rgba(0,0,0,0.75);
-    -moz-border-radius:2px;
-    -webkit-border-radius:2px;
-    border-radius:2px;
-}
-}
-*/
 
 #calc {
     width: 100%;
@@ -164,10 +132,78 @@ a.open_menu:hover {
     background: #000 url(images/mobile_menu_333.gif) no-repeat;
 }
 
+.num {
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    color: #222;
+}
 
+.uslugi_1 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    border: solid 1px #ddd;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(img/red.jpg) no-repeat 50% 30px;
+    overflow: hidden;
+}
 
+.uslugi_2 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    border: solid 1px #ddd;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(images/gazel.png) no-repeat 50% 30px;
+    overflow: hidden;
+}
 
+.uslugi_3 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    border: solid 1px #ddd;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(img/red.jpg) no-repeat 50% 30px;
+    overflow: hidden;
+}
+.uslugi_4 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 190px;
+    border: solid 1px #ddd;
+    float: left;
+    text-align: center;
+    margin-right: 19px;
+    background: url(img/red) no-repeat 50% 30px;
+    overflow: hidden;
+}
 
+.uslugi_1 img {
+    height: 100%;
+}
+.uslugi_2 img {
+    height: 100%;
+}
+.uslugi_3 img {
+    height: 100%;
+}
+.uslugi_4 img {
+    height: 100%;
+}
 
+#ikonka_dop1 {
+    background: url(img/red) no-repeat 50% 30px;
+}
 
-
+.vk_comments {
+    width: 300px;
+    height: 100%;
+}

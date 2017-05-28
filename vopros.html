@@ -13,7 +13,7 @@
  <!--Назад вверх-->
  <link rel="stylesheet" href="./css/css2.css">
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
- <script type="тип" src="./js/js.js"></script>
+ <script type="text/javascript" src="./js/js.js"></script>
 
 
 
@@ -59,6 +59,11 @@ jQuery(document).ready(function($){
 <p id="back-top">
 <a href="#top"><span></span>Back to Top</a>
 </p>
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
+<script type="text/javascript">VK.init({apiId: 6049031, onlyWidgets: true});
+</script>
+
 </head>
 
 <body id="top" text="#333333" vlink="#aaaaaa" link="#0000ff" bgcolor="#fffff0">
@@ -69,15 +74,11 @@ jQuery(document).ready(function($){
 <table width="100%">
 <tr>
 	<td width="20%">
-	<a href="./index.html"><img src="images/logo_right.png" height="40px"></a>
-	</td>
+	<div class="logo"><a href="./index.html"><img src="images/logo_right.png" height="40px"></a></div>
+
+<a class="num" href="tel:+79000000000">+7(900) 000-00-00</a>
+    </td>
 </tr>
-<td width="80%">
-
-
-
-</td>
-<tr>
 	<td>
 		<ul id="nav">
 			<li>
@@ -107,15 +108,44 @@ jQuery(document).ready(function($){
 		<div>
 			<h2 style="text-align: center">Часто задаваемые вопросы</h2>
 			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li><h5>Как узнать пришел ли мой груз?</h5><p>Самый простой способ – воспользоваться онлайн-сервисом. Далее ввести номер транспортной накладной, после чего откроется информация по грузу. В случае, если система не показывает текущий статус доставки, то вы всегда можете позвонить в филиал отправки или получения груза. Будьте готовы назвать номер накладной, дату отправки, фамилию получателя или название организации.</p></li>
+				<li><h5>Что такое негабаритный груз?</h5><pre>
+Негабаритным грузом считается:
+	Грузовое место весом более 200кг, неупакованное на паллет
+	Грузовое место весом более 1000кг, упакованное на паллет 
+	Грузовое место, длина которого более 3 м
+	Грузовое место, высота которого более 2,2 м
+	Грузовое место объемом более 2,5 м3
+	При перевозке негабаритного груза взимается +25% к тарифной стоимости.
+	</pre></li>
+				<li><h5>Какие документы нужны для отправки и получения груза?</h5><pre>Для отправки и получение груза необходимы следующие документы:
+
+Для юридических лиц:
+
+	Оригинал доверенности от организации и паспорт представителя.
+	Оригиналы сопроводительных документов (счет фактура, торг 12, товарный чек и т.д.).
+	Руководителям приказ о назначении, печать (при наличии), паспорт.
+
+Для индивидуальных предпринимателей:
+
+	Оригинал доверенность от ИП и паспорт представителя.
+	Оригиналы сопроводительных документов (счет фактура, торг 12, товарный чек и т.д.).
+	Собственникам свидетельство о регистрации ИП, печать (при наличии), паспорт.
+
+Для физических лиц:
+
+	Личное присутствие, паспорт.
+	Представитель грузополучателя может получить груз при наличии доверенности заверенной у нотариуса.
+	Опись груза
+</pre></li>
 			</ul>
 		</div>
 
-
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
 
 		<div>
 		<h2>Не нашли ответа на свой вопрос?</h2>

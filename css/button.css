@@ -10,7 +10,7 @@ a.big_button {
   border: 2px solid #F64C2B;
   border-radius: 3px;
   box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
-  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  background: linear-gradient(#F03A3A 48%, #EA1502 52%);
   text-transform: uppercase;
   font-size: 1.4em;
   font-weight: bold;
